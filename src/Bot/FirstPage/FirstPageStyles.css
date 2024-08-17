@@ -1,0 +1,20 @@
+.buttons{
+    color: whitesmoke;
+    background-color:rgb(223, 186, 218);
+    padding: 20 12 20 12;
+    margin-right: 30px;
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border:none;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.buttons:hover{
+    opacity: 0.8;
+}
+.buttons:active{
+    opacity: 0.5;
+    background-color: whitesmoke;
+    color:black;
+}
